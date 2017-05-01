@@ -1,1 +1,55 @@
+.myPhoto
+{
+  width:300px;
+	height:300px;
+  margin:0 auto;
+  display: block;
+  margin-bottom:px;
+}
 
+/*.aboutMe
+{
+  width:250px;
+  height:250px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.work
+{
+  width:250px;
+  height:250px;
+  margin-right: 200px;
+  float: right;
+  margin-top: 100px;
+  margin-bottom: 400px;
+}*/
+
+.col5{
+width: 20%;
+float: left;
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+html,body {
+  padding:0;
+  margin:0;
+  height:80%;
+  min-height:80%;
+ }
+
+.quarter{
+  width:50%;
+  height:100%;
+  float:left;
+}
+.contents{
+  height:50%;
+  width:100%;
+  text-align: center;
+vertical-align: middle;
+line-height: 90px;
+}

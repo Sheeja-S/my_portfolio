@@ -4,4 +4,5 @@ $(document).ready(function() {
     $("#resume-showing").toggle();
     $("#resume-hidden").toggle();
   });
+
 });

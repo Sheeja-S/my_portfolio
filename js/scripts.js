@@ -12,4 +12,3 @@ $('.portfolioImage').hover(
 }, function(){
      $(this).find(".image_frame").removeClass("lowerOpacity");
 });
-});

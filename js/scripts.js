@@ -5,4 +5,11 @@ $(document).ready(function() {
     $("#resume-hidden").toggle();
   });
 
+
+$('.portfolioImage').hover(
+    function(){
+         $(this).find(".image_frame").addClass("lowerOpacity");
+}, function(){
+     $(this).find(".image_frame").removeClass("lowerOpacity");
+});
 });

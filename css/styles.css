@@ -23,12 +23,13 @@ html,body {
   height:100%;
   float:left;
 }
-.contents{
+.contents
+{
   height:50%;
   width:100%;
   text-align: center;
-vertical-align: middle;
-line-height: 90px;
+  vertical-align: middle;
+  line-height: 90px;
 }
 
 
@@ -113,4 +114,59 @@ line-height: 90px;
          display: block;
          position: relative;
          border: solid;
+         margin-top: 50%;
        }
+
+
+       #f1_container {
+  position: relative;
+  margin: 0px auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+
+}
+#f1_container
+{
+  perspective: 1000;
+}
+#f1_card
+{
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+
+#f1_container:hover #f1_card
+ {
+  transform: rotateY(180deg);
+ }
+
+.face
+{
+  position: absolute;
+  width: 200px;
+  height: 200px`;
+  backface-visibility: hidden;
+}
+
+.face.back
+{
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  background-color: #8effff;
+  border: solid;
+}
+
+h5
+{
+  font-family:Courier New;
+  color: black;
+  font-size: 18px;
+
+}
